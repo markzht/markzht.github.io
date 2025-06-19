@@ -1,5 +1,5 @@
 body {
- font-family: Shadows Into Light, sans-serif;
+ font-family: Arial, sans-serif;
  text-align: center;
  background: black url('Background.jpg') no-repeat center center fixed;
  background-size: cover;
@@ -55,7 +55,7 @@ section {
 }
 .skill {
  background-color: rgba(0, 0, 0, 0.7);
- border-radius: rgba(0, 0, 0, 0.7);
+ border-radius: 10px;
  padding: 10px 15px;
  display: flex;
  align-items: center;
@@ -63,17 +63,14 @@ section {
  transition: background-color 0.3s ease, transform 0.2s ease;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 .skill:hover {
  background-color: rgba(0, 0, 0, 0.9);
  transform: translateY(-3px);
 }
-
 .skill img {
  width: 24px;
  height: 24px;
 }
-
 .skill span {
  font-weight: 600;
  color: #fff;
