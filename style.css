@@ -83,10 +83,10 @@ section {
  flex-wrap: wrap
 }
 
-#porjects {
+#projects {
  text-decoration: none;
  color: white;
- background: linear-gradient(145deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1))
+ background: linear-gradient(145deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1)
  border-radius: 10px;
  padding: 60px 85px;
