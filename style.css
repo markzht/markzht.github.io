@@ -7,8 +7,15 @@ body {
  color: white;
 }
 
-nav {
-  margin_bottom: 30px;
+header {
+ margin: 100px 20px 20px 20px;
+}
+
+header nav {
+ background-color: rgba(0, 0, 0, 0.5);
+ padding: 10px 20px;
+ border-radius: 8px;
+ display: inline-block;
 } 
 
 nav a {
@@ -19,9 +26,18 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #FF00FF;
 }
 
+h1, h2, h3, p, a {
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+ 
 .shadows-into-light-regular {
   font-family: "Shadows Into Light", cursive;
   font-weight: 600;
