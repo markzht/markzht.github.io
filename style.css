@@ -7,6 +7,13 @@ body {
  color: white;
 }
 
+
+footer a {
+ color: #00FFFF;
+ text-decoration: none;
+}
+
+
 header {
  margin: 100px 20px 20px 20px;
 }
