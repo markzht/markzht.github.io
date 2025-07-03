@@ -124,3 +124,9 @@ section {
 #projects > a img {
  border: 2px solid #FF00FF;
 }
+
+.projects-main section {
+  padding: 40px;
+  background: linear-gradient(170deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
